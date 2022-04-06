@@ -1,0 +1,57 @@
+/* linkando o Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    width: 50%;
+    border: 1px solid #dc143c;
+    /*É o mesmo que border-width: 1px;
+                    border-style: solid;
+                    border-color: #dc143c; */
+
+    /*
+    margin: 20px 40px;
+
+    Com 1 valor é para todos os lados
+
+    Com 2 valores o primeiro valor é pra cima e pra baixo, segundo valor é pra esquerda e pra direita.
+
+    Se for com 3 valores o primeiro valor é pra cima, o segundo é para esquerda e direita e o terceiro valor é para baixo.
+
+    Com 4 valores fica cima, direita, baixo, esquerda
+
+    Perceba que ele se orienta pelo sentido horário
+    
+    margin: 50px 0 0 200px; É o mesmo que margin-top: 50px; margin-left: 200px; */
+
+    margin: 30px auto;
+    /* em cima e embaixo terá 30px de distância, mas a esquerda e direita automaticamente estará no meio */
+    
+    padding: 30px;
+    /* padding funciona igual o margin na hora de escrever, mas ele é o espaçamento de dentro, não de fora (mas aumenta o tamanho do container que está sendo editado) */
+
+    box-sizing: border-box;
+    /* isso arruma o problema que o padding causa de aumentar o tamanho do container */
+
+    text-align: center;
+    /* Alinha TUDO no centro */
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h1, h2 {
+    font-size: 40px;
+    color: rgb(64, 160, 238);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
